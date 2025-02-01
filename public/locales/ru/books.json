@@ -1,0 +1,13 @@
+{
+	"title": "Книги о питомцах",
+	"description": "Найдите всё необходимое для ваших любимых питомцев в книгах!",
+	"filter_all_category": "Все категории",
+	"filter_pets": "Питомцы",
+	"filter_food": "Еда",
+	"filter_healthcare": "Здоровье",
+	"filter_toys": "Игрушки",
+	"filter_accessories": "Аксессуары",
+	"filter_training": "Обучение",
+	"book_added": "Книга успешно добавлена",
+	"buy": "Купить"
+}

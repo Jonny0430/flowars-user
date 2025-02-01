@@ -1,0 +1,51 @@
+{
+	"hero_title": "Find everything your pet needs for unforgettable memories",
+	"hero_title_1": "With love and care",
+	"hero_start_product_btn": "Explore Pet Store",
+	"hero_start_product_1_btn": "Browse Products",
+	"hero_start_product_2_btn": "Check What's New",
+
+	"hero_stats_1": "Total Post Reactions",
+	"hero_stats_2": "Total Post Views",
+	"hero_stats_3": "Total Messages",
+	"hero_stats_4": "View All",
+
+	"hero_start_product_3_btn": "See Latest Updates",
+	"hero_become_agent_btn": "Apply as an Agent",
+
+	"category_title": "Popular Categories",
+	"category_description": "Discover the most loved products for your pets!",
+	"category_1": "Cat Supplies",
+	"category_2": "Dog Supplies",
+	"category_3": "Bird Supplies",
+	"category_4": "Fish Supplies",
+	"category_5": "Reptile Supplies",
+	"category_6": "Pet Food",
+	"category_7": "Pet Care Products",
+
+	"design_category": "Happy Paws",
+	"popular_products_title": "Browse Recommended Products",
+	"popular_products_description": "Explore over 10,000 unique products your pets will adore!",
+
+	"how_it_works_title": "How It Works",
+	"how_it_works_description": "Explore over 10,000 pet products and services!",
+	"how_it_works_first_step": "Place Your Order",
+	"how_it_works_second_step": "Choose Your Payment Method",
+	"how_it_works_third_step": "Fast and Safe Delivery",
+
+	"agent_title": "Get Expert Advice Today!",
+	"agent_description": "All our agents are highly experienced and knowledgeable.",
+	"agent_link_title": "Want to help pet lovers learn, grow, and care better?",
+	"agent_link_router": "Apply as an Agent",
+
+	"testimonials_title": "Customer Reviews",
+	"testimonials_description": "Honest feedback from our satisfied customers",
+
+	"articles": "All Articles",
+	"articles_description": "Find useful information and tips from our expert articles!",
+	"newsletter_title": "Subscribe to Our Newsletter &",
+	"newsletter_description": "Stay updated with the latest trends and insights in the pet world. No spam—just valuable information for pet lovers.",
+	"newsletter_placeholder": "Enter your email...",
+	"newsletter_submit": "Subscribe",
+	"sponsor_title": "Trusted by Leading Brands Worldwide"
+}

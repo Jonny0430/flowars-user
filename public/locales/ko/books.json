@@ -1,0 +1,13 @@
+{
+	"title": "반려동물 도서",
+	"description": "반려동물을 위한 모든 정보를 책에서 찾아보세요!",
+	"filter_all_category": "모든 카테고리",
+	"filter_pets": "반려동물",
+	"filter_food": "음식",
+	"filter_healthcare": "건강 관리",
+	"filter_toys": "장난감",
+	"filter_accessories": "액세서리",
+	"filter_training": "훈련",
+	"book_added": "책이 성공적으로 추가되었습니다",
+	"buy": "구매"
+}

@@ -1,0 +1,60 @@
+import { Box, Button, Container, HStack, Icon, Text, useColorModeValue } from '@chakra-ui/react'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
+import { FC } from 'react'
+import { useTranslation } from 'react-i18next'
+import { navigation } from 'src/config/constants'
+import { SideBarProps } from './sidebar.props'
+
+const SideBar: FC<SideBarProps> = ({ toggle }): JSX.Element => {
+    const router = useRouter();
+    const { t } = useTranslation()
+
+    return (
+        <Box
+            zIndex={1400}
+            w={{ base: 'full', lg: '300px' }}
+            h={'90vh'}
+            bg={useColorModeValue('gray.50', 'gray.900')}
+            color={useColorModeValue('gray.700', 'gray.200')}
+            borderRight={'1px'}
+            borderRightColor={useColorModeValue('gray.200', 'gray.700')}
+            pos={'fixed'}
+            top={'10vh'}
+            left={{ base: toggle ? 0 : '-100%', lg: 0 }}
+            overflowY={'scroll'}
+            css={{
+                '&::-webkit-scrollbar': { width: '1px' },
+                '&::-webkit-scrollbar-track': { width: '1px' },
+                '&::-webkit-scrollbar-thumb': { background: 'transparent' },
+            }}
+            transition={'all .4s ease'}
+        >
+            <Container maxW={'container.xl'}>
+                {navigation.map((item, index) => (
+                    <Box key={index} mt={10}>
+                        <Text>{t(item.title, { ns: 'layout' })}</Text>
+                        {item.links.map((nav, index) => {
+                            const active = router.asPath == nav.route
+                            return (
+                                <Link href={`${nav.route}`} key={index}>
+                                    <Button
+                                        _hover={{ bg: '#FF9F6D' }}
+                                        bgColor={active ? "#FFC196" : ''} color={active ? 'black' : ''} variant={active ? "solid" : 'ghost'}
+                                        w={'full'} justifyContent={'flex-start'} h={14} mt={2}>
+                                        <HStack gap={2}>
+                                            <Icon as={nav.icon} />
+                                            <Text>{t(nav.label, { ns: 'layout' })}</Text>
+                                        </HStack>
+                                    </Button>
+                                </Link>
+                            )
+                        })}
+                    </Box>
+                ))}
+            </Container>
+        </Box>
+    )
+}
+
+export default SideBar

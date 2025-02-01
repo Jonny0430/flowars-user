@@ -1,0 +1,60 @@
+# services:
+#   startup-next:
+#     container_name: startup-next
+#     restart: always
+#     image: node:20.18.0
+#     ports:
+#       - 3001:3000
+#     environment:
+#       PORT: 8001
+#     volumes:
+#       - ./:/src/startup-next
+#     working_dir: /src/startup-next
+#     networks:
+#       - client-network
+#     command: bash -c "npm install --legacy-peer-deps && npm run build && npm run start"
+
+# networks:
+#   client-network:
+#     driver: bridge
+
+# services:
+#   startup-next:
+#     container_name: startup-next
+#     restart: always
+#     image: node:20.18.0
+#     ports:
+#       - 3001:3000
+#     volumes:
+#       - ./:/src/startup-next
+#     working_dir: /src/startup-next
+#     networks:
+#       - client-network
+#     env_file:
+#       - .env
+#     command: bash -c "npm install --legacy-peer-deps && npm run build && npm run start"
+
+# networks:
+#   client-network:
+#     driver: bridge
+
+version: '3'
+services:
+  startup-next:
+    container_name: startup-next
+    restart: always
+    image: node:20.18.0
+    ports:
+      - 3001:3000
+    volumes:
+      - ./:/src/startup-next
+    working_dir: /src/startup-next
+    networks:
+      - client-network
+    env_file:
+      - .env
+    command: bash -c "npm install --legacy-peer-deps && npm run build && npm run start"
+
+networks:
+  client-network:
+    driver: bridge

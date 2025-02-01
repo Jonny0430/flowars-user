@@ -1,0 +1,13 @@
+{
+	"title": "Pet Books",
+	"description": "Find everything you need for your beloved pets in books!",
+	"filter_all_category": "All Categories",
+	"filter_pets": "Pets",
+	"filter_food": "Food",
+	"filter_healthcare": "Healthcare",
+	"filter_toys": "Toys",
+	"filter_accessories": "Accessories",
+	"filter_training": "Training",
+	"book_added": "book added successfully",
+	"buy": "Buy"
+}
