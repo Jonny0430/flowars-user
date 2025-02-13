@@ -14,27 +14,29 @@ import {
 const reviewData = [
     {
         avatarSrc: '/images/draft.png',
-        review: `"An Absolute Game-Changer for Pet Owners!"
-"I've been using PetStore for the past few months, and it's completely transformed the way I interact with my pet. The app is easy to use, and the community is super supportive. I especially love the pet health tracking feature. It helps me keep track of my pet's diet and exercise routine. Highly recommend it to all pet parents!"`,
+        review: `"An Absolute Game-Changer for Plant Lovers!"
+        "I've been using FlowerShop for the past few months, and it's completely transformed the way I take care of my plants. The app is easy to use, and the community is super supportive. I especially love the plant health tracking feature. It helps me keep track of my plant's watering and sunlight needs. Highly recommend it to all plant parents!"`,
         stars: 5,
-        userName: 'Jonny',
+        userName: 'Max',
         dateTime: '2 months ago'
     },
     {
         avatarSrc: '',
         review: `"Innovative, Fun, and Easy to Use!"
-"I can't say enough good things about PetStore! Not only is it packed with useful tools, but it's also fun to use. My dog’s health and happiness have improved, and I feel more connected to her needs. From activity tracking to pet-friendly events, this app has it all. It's definitely the go-to app for pet lovers everywhere."`,
+        "I can't say enough good things about FlowerShop! Not only is it packed with useful tools, but it's also fun to use. My plants' health and growth have improved, and I feel more connected to their needs. From watering schedules to plant-friendly events, this app has it all. It's definitely the go-to app for flower lovers everywhere."`,
         stars: 5,
-        userName: 'Leo',
-        dateTime: '1 months ago'
+        userName: 'Bob',
+        dateTime: '1 month ago'
+
     },
     {
         avatarSrc: '',
-        review: `"A Must-Have for Every Pet Lover!"
-"As a first-time pet owner, PetStore has been a lifesaver. The resources and tips are spot-on, and the ability to track my pet’s milestones has been incredibly helpful. The community of fellow pet owners is also fantastic. I feel like I’m part of a big, loving family. If you're looking for an app that truly cares about pets and their owners, this is it!"`,
+        review: `"A Must-Have for Every Flower Lover!"
+        "As a first-time plant owner, FlowerShop has been a lifesaver. The resources and tips are spot-on, and the ability to track my plant's milestones has been incredibly helpful. The community of fellow plant lovers is also fantastic. I feel like I’m part of a big, loving family. If you're looking for an app that truly cares about flowers and their owners, this is it!"`,
         stars: 5,
-        userName: 'Zac',
+        userName: 'Mohi',
         dateTime: '4 months ago'
+
     }
 ];
 

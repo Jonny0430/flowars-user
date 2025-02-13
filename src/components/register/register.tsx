@@ -58,7 +58,7 @@ const Register = ({ onNavigateStateComponent }: RegisterProps) => {
                         name='email'
                         type='text'
                         label={t('login_input_email_label', { ns: 'global' })}
-                        placeholder={'info@PetStore.ac'}
+                        placeholder={'info@Monrovia.ac'}
                     />
                     <Flex gap={4}>
                         <TextField

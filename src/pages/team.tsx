@@ -6,10 +6,10 @@ const Team = () => {
     return (
         <Seo
             metaTitle={
-                `Pet-Store | Team`
+                `Florist | Team`
             }
             metaDescription={
-                `Pet-Store | Team`
+                `Florist | Team`
             }
         >
             <TeamPageComponent />

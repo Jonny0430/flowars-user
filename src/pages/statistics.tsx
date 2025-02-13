@@ -8,10 +8,10 @@ const Statistics = () => {
     return (
         <Seo
             metaTitle={
-                `Pet-Store | Statistics`
+                `Florist | Statistics`
             }
             metaDescription={
-                `Pet-Store | Statistics`
+                `Florist | Statistics`
             }
         >
             <StatisticsPageComponent />

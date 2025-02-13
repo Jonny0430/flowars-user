@@ -10,10 +10,10 @@ const ArticleDetailedPage = ({ article }: ArticleDetailedPageProps) => {
     return (
         <Seo
             metaTitle={
-                `Pet-Store | ${article.slug} `
+                `Florist | ${article.slug} `
             }
             metaDescription={
-                `Pet-Store | Articles`
+                `Florist | Articles`
             }
         >
             <ArticleDetailedCompomemt article={article} />

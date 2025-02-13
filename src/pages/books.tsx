@@ -11,11 +11,11 @@ const Books = () => {
     return (
         <Seo
             metaTitle={
-                `Pet-Store | ${t('books_page_title', { ns: 'seo' })}` || 'Pet-Store | Books'
+                `Florist | ${t('books_page_title', { ns: 'seo' })}` || 'Florist | Books'
             }
             metaDescription={
-                `Pet-Store | ${t('books_page_description', { ns: 'seo' })}` ||
-                'Pet Store offers a curated selection of books to help you better care for and understand your pets.'
+                `Florist | ${t('books_page_description', { ns: 'seo' })}` ||
+                'FlowerShop offers a curated selection of books to help you better care for and understand your flowers.'
             }
         >
             <BooksPageComponent />

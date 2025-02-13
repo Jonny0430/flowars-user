@@ -1,13 +1,13 @@
 {
-	"title": "Uy hayvonlar uchun kitoblar",
-	"description": "Sevimli Uy hayvonlarigaingiz uchun kerakli hamma narsani kitoblardan toping!",
+	"title": "Gullar uchun kitoblar",
+	"description": "Sevimli gullaringiz uchun kerakli hamma narsani kitoblardan toping!",
 	"filter_all_category": "Barcha kategoriyalar",
-	"filter_pets": "Uy hayvonlarigai",
-	"filter_food": "Oziq-ovqat",
+	"filter_flowers": "Gullar",
+	"filter_soil": "Tuproq",
 	"filter_healthcare": "Sog‘liqni saqlash",
-	"filter_toys": "O‘yinchoqlar",
+	"filter_tools": "Asboblar",
 	"filter_accessories": "Aksessuarlar",
-	"filter_training": "Trening",
+	"filter_design": "Dizayn",
 	"book_added": "Kitob muvaffaqiyatli qo‘shildi",
 	"buy": "Sotib olish"
 }

@@ -11,12 +11,12 @@ const products = () => {
     return (
         <Seo
             metaTitle={
-                `Pet-Store | ${t('product_page_title', { ns: 'seo' })}` ||
-                'Pet-Store | All products'
+                `Florist | ${t('product_page_title', { ns: 'seo' })}` ||
+                'Florist | All products'
             }
             metaDescription={
-                `Pet-Store | ${t('product_page_description', { ns: 'seo' })}` ||
-                'Discover a wide range of products on the Pet Store platform to meet all your pet care needs and enjoy a seamless shopping experience.'
+                `Florist | ${t('product_page_description', { ns: 'seo' })}` ||
+                'Discover a wide range of products on the FlowerShop platform to meet all your flower care needs and enjoy a seamless shopping experience.'
             }
         >
             <ProductsPageComponent />

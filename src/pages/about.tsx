@@ -9,11 +9,11 @@ const AboutPage = () => {
     return (
         <Seo
             metaTitle={
-                `Pet-Store | ${t('about_page_title', {ns: 'seo'})}` || 'OnlineSchool | About us'
+                `Florist | ${t('about_page_title', {ns: 'seo'})}` || 'OnlineSchool | About us'
             }
             metaDescription={
-                `Pet-Store | ${t('about_page_description', {ns: 'seo'})}` || 
-                'Learn more about the Pet Store platform, your one-stop destination for premium pet care products, services, and expert advice.'
+                `Florist  | ${t('about_page_description', {ns: 'seo'})}` || 
+                'Learn more about the FlowerShop platform, your one-stop destination for premium flower care products, services, and expert advice.'
             }
         >
             <AboutPageComponent />

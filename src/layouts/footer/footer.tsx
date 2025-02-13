@@ -19,7 +19,7 @@ const Footer = () => {
             h={'10vh'}
         >
             <Flex justify={'space-between'} direction={{ base: 'column', lg: 'row' }} align={'center'} h={'full'}>
-                <Text>{format(new Date(), 'yyyy')} © PetStore. {t('footer', { ns: 'layout' })}.</Text>
+                <Text>{format(new Date(), 'yyyy')} © Monrovia. {t('footer', { ns: 'layout' })}.</Text>
                 <Flex gap={4} mr={{base: '0', lg: '10'}}>
                     <IconButton icon={<FaTelegram />} 
                        colorScheme="facebook" _hover={{ bg: '#FF9F6D' }} variant={'outline'} aria-label={"telegram"} />

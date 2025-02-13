@@ -1,29 +1,29 @@
 {
-	"main_page_title": "Chorva mahsulotlari",
-	"main_page_description": "Chorva hayvonlari parvarishi uchun mahsulotlar, xizmatlar va resurslarning keng tanlovini ko‘rib chiqing. Chorva buyumlaridan tortib, parvarish vositalarigacha, sevimli hayvoningiz uchun kerak bo‘lgan hamma narsani taqdim etamiz. Shaxsiy xarid profilini yarating, istaklar ro‘yxatini boshqaring va chorva hayvoningiz uchun eng yaxshi yechimlarni Pet Store orqali toping.",
+	"main_page_title": "Gul mahsulotlari",
+	"main_page_description": "Gullarni parvarishlash uchun mahsulotlar, xizmatlar va resurslarning keng tanlovini ko‘rib chiqing. Gul buyumlaridan tortib, parvarish vositalarigacha, sevimli gullaringiz uchun kerak bo‘lgan hamma narsani taqdim etamiz. Shaxsiy xarid profilini yarating, istaklar ro‘yxatini boshqaring va gullaringiz uchun eng yaxshi yechimlarni FlowerShop orqali toping.",
 	"product_page_title": "Barcha mahsulotlar",
-	"all_products_description": "Pet Store platformasida chorva parvarishi uchun keng mahsulotlar tanlovini toping va xarid qilishni oson va qulay tarzda bajaring.",
+	"all_products_description": "FlowerShop platformasida gul parvarishi uchun keng mahsulotlar tanlovini toping va xarid qilishni oson va qulay tarzda bajaring.",
 
 	"books_page_title": "Kitoblar",
-	"books_page_description": "Pet Store chorva hayvonlaringizga yaxshiroq g‘amxo‘rlik qilish va ularni tushunishda yordam beruvchi maxsus tanlangan kitoblarni taklif etadi.",
+	"books_page_description": "FlowerShop gullaringizga yaxshiroq g‘amxo‘rlik qilish va ularni tushunishda yordam beruvchi maxsus tanlangan kitoblarni taklif etadi.",
 
 	"article_page_title": "Maqolalar",
-	"article_page_description": "Pet Store’dan foydali maqolalar",
+	"article_page_description": "FlowerShop’dan foydali maqolalar",
 
 	"about_page_title": "Biz haqimizda",
-	"about_page_description": "Pet Store platformasi haqida ko‘proq bilib oling — chorva hayvonlari uchun sifatli mahsulotlar, xizmatlar va ekspert maslahatlarining yagona manbai.",
+	"about_page_description": "FlowerShop platformasi haqida ko‘proq bilib oling — gullar uchun sifatli mahsulotlar, xizmatlar va ekspert maslahatlarining yagona manbai.",
 
 	"contact_page_title": "Bog‘lanish",
-	"contact_page_description": "Pet Store bilan bog‘laning va har qanday savollaringizni so‘rang.",
+	"contact_page_description": "FlowerShop bilan bog‘laning va har qanday savollaringizni so‘rang.",
 
 	"pricing_page_title": "Narx rejasi",
-	"pricing_page_description": "Chorva parvarishi uchun maxsus takliflar va shaxsiylashtirilgan xarid funksiyalaridan foydalanish uchun Pet Store’dan eng yaxshi rejani tanlang.",
+	"pricing_page_description": "Gul parvarishi uchun maxsus takliflar va shaxsiylashtirilgan xarid funksiyalaridan foydalanish uchun FlowerShop’dan eng yaxshi rejani tanlang.",
 
 	"faq_page_title": "Ko‘p so‘raladigan savollar",
-	"faq_page_description": "Pet Store platformasi foydalanuvchilari tomonidan eng ko‘p so‘raladigan savollar",
+	"faq_page_description": "FlowerShop platformasi foydalanuvchilari tomonidan eng ko‘p so‘raladigan savollar",
 
 	"auth_page_title": "Kirish",
-	"auth_page_description": "Pet Store’da kirish yoki hisob yarating va chorva mahsulotlari, xizmatlari va eksklyuziv takliflardan foydalaning.",
+	"auth_page_description": "FlowerShop’da kirish yoki hisob yarating va gul mahsulotlari, xizmatlari va eksklyuziv takliflardan foydalaning.",
 
 	"agent": "Agent bo‘lish"
 }

@@ -10,11 +10,11 @@ const FaqPage = () => {
     return (
         <Seo
             metaTitle={
-                `Pet-Store | ${t('faq_page_title', { ns: 'seo' })}` || 'Pet-Store | FAQ'
+                `Florist | ${t('faq_page_title', { ns: 'seo' })}` || 'Florist | FAQ'
             }
             metaDescription={
-                `Pet-Store | ${t('faq_page_description', { ns: 'seo' })}` ||
-                'More users in Pet-Store platform frequently asked question'
+                `Florist | ${t('faq_page_description', { ns: 'seo' })}` ||
+                'More users in FlowerShop platform frequently asked questions.'
             }
         >
             <FaqPageComponent />

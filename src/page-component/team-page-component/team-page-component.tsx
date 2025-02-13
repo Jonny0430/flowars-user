@@ -38,14 +38,7 @@ const companies = [
             "GitHub",
             'Stripe'
         ],
-        logo: '/images/image.png'
-    },
-    {
-        title: 'AGENT',
-        alt: 'company image',
-        role: 'Product Manager',
-        skills: ['Market Analysis', 'Product Strategy Development', 'Financial Modeling', 'KPI Setting and Monitoring'],
-        logo: '/images/agent.png'
+        logo: '/images/image.'
     },
 ];
 

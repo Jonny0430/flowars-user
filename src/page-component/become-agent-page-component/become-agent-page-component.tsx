@@ -166,7 +166,7 @@ const BecomeAgentPageComponent = () => {
                                     <TextField
                                         name={'email'}
                                         label={t('login_input_email_label', { ns: 'global' })}
-                                        placeholder={'info@PetStore.ac'}
+                                        placeholder={'info@Monrovia.ac'}
                                         type={'email'}
                                     />
                                     <TextField

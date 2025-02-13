@@ -13,10 +13,10 @@ const Dashboard: NextPage = () => {
     return (
         <Seo
             metaTitle={
-                `Pet-Store | Dashboard`
+                `Florist | Dashboard`
             }
             metaDescription={
-                `Pet-Store | Dashboard`
+                `Florist | Dashboard`
             }
         >
             <UserDashboardPageComponent />

@@ -1,9 +1,10 @@
 {
-	"hero_title": "반려동물을 위한 모든 것을 찾아보세요, 잊지 못할 순간을 위해",
+	"hero_title": "당신의 꽃을 위한 모든 것을 찾아보세요, 잊지 못할 꽃 피는 순간을 위해",
 	"hero_title_1": "사랑과 정성으로 함께",
-	"hero_start_product_btn": "펫 스토리 보기",
+	"hero_start_product_btn": "꽃 쇼핑하기",
 	"hero_start_product_1_btn": "제품 둘러보기",
 	"hero_start_product_2_btn": "새 소식 보기",
+
 
 	"hero_stats_1": "총 게시물 반응 수",
 	"hero_stats_2": "총 게시물 조회 수",
@@ -14,38 +15,42 @@
 	"hero_become_agent_btn": "에이전트 신청하기",
 
 	"category_title": "인기 카테고리",
-	"category_description": "반려동물이 좋아하는 최고 인기 제품들을 만나보세요!",
-	"category_1": "고양이 용품",
-	"category_2": "강아지 용품",
-	"category_3": "새 용품",
-	"category_4": "물고기 용품",
-	"category_5": "파충류 용품",
-	"category_6": "반려동물 사료",
-	"category_7": "반려동물 관리 용품",
+	"category_description": "당신의 꽃을 위한 최고 인기 제품들을 만나보세요!",
+	"category_1": "꽃 화분",
+	"category_2": "식물 관리 용품",
+	"category_3": "꽃 씨앗",
+	"category_4": "토양 및 비료",
+	"category_5": "식물 도구",
+	"category_6": "꽃 사료",
+	"category_7": "꽃 관리 용품",
 
-	"design_category": "행복한 발자국",
+
+	"design_category": "행복한 꽃들",
 	"popular_products_title": "추천 제품 둘러보기",
-	"popular_products_description": "반려동물이 사랑하는 10,000개 이상의 특별한 제품을 발견하세요!",
+	"popular_products_description": "꽃이 사랑하는 10,000개 이상의 특별한 제품을 발견하세요!",
+
 
 	"how_it_works_title": "이용 방법",
-	"how_it_works_description": "10,000개 이상의 반려동물 제품과 서비스를 만나보세요!",
+	"how_it_works_description": "10,000개 이상의 꽃 제품과 서비스를 만나보세요!",
 	"how_it_works_first_step": "주문하기",
 	"how_it_works_second_step": "결제하기",
 	"how_it_works_third_step": "빠른 배송",
 
-	"agent_title": "전문 에이전트의 구매 조언을 받아보세요!",
-	"agent_description": "저희 에이전트는 모두 풍부한 경험을 가지고 있습니다.",
-	"agent_link_title": "반려동물을 사랑하는 분들이 더 잘 배우고 성장하고 돌볼 수 있도록 돕고 싶으신가요?",
+
+	"agent_title": "전문 에이전트의 꽃 관리 조언을 받아보세요!",
+	"agent_description": "저희 에이전트는 모두 풍부한 꽃 관리 경험을 가지고 있습니다.",
+	"agent_link_title": "꽃을 사랑하는 분들이 더 잘 배우고 성장하고 돌볼 수 있도록 돕고 싶으신가요?",
 	"agent_link_router": "에이전트 신청하기",
 
 	"testimonials_title": "고객 후기",
 	"testimonials_description": "저희 플랫폼에 대한 고객들의 의견",
 
 	"articles": "모든 기사",
-	"articles_description": "저희 기사를 통해 얻을 수 있는 정보는 무엇인가요?",
+	"articles_description": "저희 기사를 통해 얻을 수 있는 꽃 관리 정보는 무엇인가요?",
 	"newsletter_title": "뉴스레터 구독하기 &",
-	"newsletter_description": "뉴스레터를 구독하시면 반려동물 세계의 최신 트렌드와 정보를 매일 받아보실 수 있습니다. 스팸 걱정은 하지 마세요. 오직 반려동물을 사랑하는 분들을 위한 소중한 정보를 제공합니다.",
+	"newsletter_description": "뉴스레터를 구독하시면 꽃 관리 세계의 최신 트렌드와 정보를 매일 받아보실 수 있습니다. 스팸 걱정은 하지 마세요. 오직 꽃을 사랑하는 분들을 위한 소중한 정보를 제공합니다.",
 	"newsletter_placeholder": "이메일 주소를 입력하세요...",
 	"newsletter_submit": "구독하기",
-	"sponsor_title": "세계적으로 신뢰받는 브랜드와 함께"
+	"sponsor_title": "세계적으로 신뢰받는 꽃 브랜드와 함께"
+
 }

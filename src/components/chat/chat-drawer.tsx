@@ -19,6 +19,7 @@ import {
 import { useSocket } from 'src/context/SocketContext';
 import { useTypedSelector } from 'hooks/useTypedSelector';
 import { useTranslation } from 'react-i18next';
+import { TiMessages } from "react-icons/ti";
 
 interface Message {
     id?: string;
@@ -81,22 +82,24 @@ const ChatModal = () => {
         <>
             <Button
                 position="fixed"
-                mb={"50px"}
-                bottom="40px"
-                right="16px"
-                colorScheme="teal"
+                mb={"60px"}
+                bottom="50px"
+                right="40px"
+                colorScheme="red"
                 size="sm"
-                borderRadius="full"
+                width="4%"
+                height="7%"
+                borderRadius="50%"
                 shadow="md"
                 onClick={toggleModal}
             >
-                Chat {unreadCount > 0 && <Badge ml="2">{unreadCount}</Badge>}
+                <TiMessages style={{ width: '62%', height: '67%'}} /> 
             </Button>
 
             <Modal isOpen={isOpen} onClose={toggleModal} size="xs">
                 <ModalOverlay />
                 <ModalContent width="300px" height="500px" maxHeight="500px">
-                    <ModalHeader fontSize="md" bg="teal.500" color="white" textAlign="center">
+                    <ModalHeader fontSize="md" bg="teal.500" color="white" textAlign="center" backgroundColor="red">
                         Chat Room
                     </ModalHeader>
                     <ModalCloseButton />
@@ -147,7 +150,7 @@ const ChatModal = () => {
                                 onKeyDown={(e) => e.key === 'Enter' && sendMessage()}
                             />
                             <Button
-                                colorScheme="blue"
+                                colorScheme="red"
                                 size="sm"
                                 onClick={sendMessage}
                                 // disabled={!message.trim()}

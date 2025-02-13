@@ -7,11 +7,11 @@ const AuthPage = () => {
 	return (
 		<Seo
 			metaTitle={
-				`Pet-Store | ${t('auth_page_title', { ns: 'seo' })}` || 'PetStore | Auth'
+				`Florist | ${t('auth_page_title', { ns: 'seo' })}` || 'PetStore | Auth'
 			}
 			metaDescription={
-				`Pet-Store | ${t('auth_page_description', { ns: 'seo' })}` ||
-				'Log in or create an account to access Pet Store’s wide range of pet care products, services, and exclusive offers.'
+				`Florist | ${t('auth_page_description', { ns: 'seo' })}` ||
+				                'Learn more about the FlowerShop platform, your one-stop destination for premium flower care products, services, and expert advice.'
 			}
 		>
 			<AuthPageComponent />

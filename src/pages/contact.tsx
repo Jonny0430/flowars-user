@@ -8,12 +8,12 @@ const ContactPage = () => {
 	return (
 		<Seo
 			metaTitle={
-				`Pet-Store | ${t('contact_page_title', { ns: 'seo' })}` ||
-				'Pet-Store | Contact us'
+				`Florist | ${t('contact_page_title', { ns: 'seo' })}` ||
+				'Florist | Contact us'
 			}
 			metaDescription={
-				`Pet-Store | ${t('contact_page_description', { ns: 'seo' })}` ||
-				'Contact with PetStore and you can ask any questions'
+				`Florist | ${t('contact_page_description', { ns: 'seo' })}` ||
+				'Contact with FlowerShop and you can ask any questions.'
 			}
 		>
 			<ContactPageComponent />

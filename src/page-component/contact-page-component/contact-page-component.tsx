@@ -27,7 +27,7 @@ const ContactPageComponent = () => {
                         </FormControl>
                         <FormControl>
                             <FormLabel>{t('contact_email', { ns: 'global' })}</FormLabel>
-                            <Input type="email" placeholder={"example@PetStore.com"} h={14} />
+                            <Input type="email" placeholder={"example@Monrovia.com"} h={14} />
                         </FormControl>
                         <FormControl>
                             <FormLabel>{t('contact_message', { ns: 'global' })}</FormLabel>

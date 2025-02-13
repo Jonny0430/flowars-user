@@ -1,7 +1,7 @@
 {
-	"hero_title": "Unutilmas onlarni yaratish uchun Uy hayvoningizga kerak bo‘lgan hamma narsani toping",
+	"hero_title": "Unutilmas onlarni yaratish uchun gullaringizga kerak bo‘lgan hamma narsani toping",
 	"hero_title_1": "sevgi va g‘amxo‘rlik bilan",
-	"hero_start_product_btn": "Uy hayvon do‘konini ko‘rib chiqing",
+	"hero_start_product_btn": "Gul do‘konini ko‘rib chiqing",
 	"hero_start_product_1_btn": "Mahsulotlarni ko‘rib chiqing",
 	"hero_start_product_2_btn": "Yangiliklar",
 
@@ -14,28 +14,28 @@
 	"hero_become_agent_btn": "Agent bo‘ling",
 
 	"category_title": "Mashhur kategoriyalar",
-	"category_description": "Sevimli uy hayvon do‘stlaringizga yoqadigan eng yuqori baholangan mahsulotlarimizni kashf qiling!",
-	"category_1": "Mushuklar uchun mahsulotlar",
-	"category_2": "Itlar uchun mahsulotlar",
-	"category_3": "Qushlar uchun mahsulotlar",
+	"category_description": "Sevimli gullaringizga yoqadigan eng yuqori baholangan mahsulotlarimizni kashf qiling!",
+	"category_1": "Atirgullar uchun mahsulotlar",
+	"category_2": "Lalalar uchun mahsulotlar",
+	"category_3": "Kaktuslar uchun mahsulotlar",
 	"category_4": "Baliqlar uchun mahsulotlar",
 	"category_5": "Sudraluvchilar uchun mahsulotlar",
-	"category_6": "Uy hayvon yemlari",
-	"category_7": "Uy hayvon parvarishi uchun vositalar",
+	"category_6": "Gul o‘simliklari uchun yemlar",
+	"category_7": "Gul parvarishi uchun vositalar",
 
-	"design_category": "Baxtli panjalar",
+	"design_category": "Baxtli gullar",
 	"popular_products_title": "Tavsiya etilgan mahsulotlarni ko‘ring",
-	"popular_products_description": "Uy hayvoningiz sevib qoladigan 10,000 dan ortiq noyob mahsulotlarni kashf qiling!",
+	"popular_products_description": "Gullaringiz sevib qoladigan 10,000 dan ortiq noyob mahsulotlarni kashf qiling!",
 
 	"how_it_works_title": "Qanday ishlaydi?",
-	"how_it_works_description": "Uy hayvonlarigai uchun 10,000 dan ortiq noyob mahsulot va xizmatlarni o‘rganing!",
+	"how_it_works_description": "Gullar uchun 10,000 dan ortiq noyob mahsulot va xizmatlarni o‘rganing!",
 	"how_it_works_first_step": "Buyurtma bering",
 	"how_it_works_second_step": "O‘zingizga qulay to‘lov usulini tanlang",
 	"how_it_works_third_step": "Tez yetkazib berish",
 
-	"agent_title": "Bugunoq tajribali agentlardan xarid bo‘yicha maslahat oling!",
+	"agent_title": "Bugunoq tajribali agentlardan gul parvarishi bo‘yicha maslahat oling!",
 	"agent_description": "Bizning barcha agentlarimiz katta tajribaga ega.",
-	"agent_link_title": "Uy hayvonlarigaini sevuvchilarga o‘rganishda, rivojlanishda va yaxshi parvarish qilishda yordam bermoqchimisiz?",
+	"agent_link_title": "Gullarga g‘amxo‘rlik qilishni sevuvchilarga o‘rganishda, rivojlanishda va yaxshi parvarish qilishda yordam bermoqchimisiz?",
 	"agent_link_router": "Agent bo‘ling",
 
 	"testimonials_title": "Fikr-mulohazalar",
@@ -44,7 +44,7 @@
 	"articles": "Barcha maqolalar",
 	"articles_description": "Maqolalarimizdan qanday foyda olishingiz mumkin?",
 	"newsletter_title": "Bizning yangiliklar byulletenimizga obuna bo‘ling &",
-	"newsletter_description": "Bizning yangiliklar byulletenimizga obuna bo‘ling va Uy hayvonlarigai dunyosidagi so‘nggi tendensiyalar va yangiliklar haqida har kuni yangiliklarni oling. Hech qanday spam yo‘q — faqat siz kabi Uy hayvonlarigaini sevuvchilar uchun foydali ma’lumotlar.",
+	"newsletter_description": "Bizning yangiliklar byulletenimizga obuna bo‘ling va gullar dunyosidagi so‘nggi tendensiyalar va yangiliklar haqida har kuni yangiliklarni oling. Hech qanday spam yo‘q — faqat siz kabi gullarni sevuvchilar uchun foydali ma’lumotlar.",
 	"newsletter_placeholder": "Email manzilingiz...",
 	"newsletter_submit": "Yuborish",
 	"sponsor_title": "Dunyoning eng yaxshi brendlari tomonidan ishonch bildirilgan"

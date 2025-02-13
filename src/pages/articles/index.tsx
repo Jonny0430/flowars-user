@@ -9,8 +9,8 @@ import { ArticleService } from 'src/service/article.service'
 const ArticlesPage = ({ articles }: ArticlesPageProps) => {
     return (
         <Seo
-            metaTitle={`Pet-Store | Articles`}
-            metaDescription={`Pet-Store | Articles`}
+            metaTitle={`Florist | Articles`}
+            metaDescription={`Florist | Articles`}
         >
             {articles.length === 0 ? (
                 <div>No articles available at the moment. Please check back later.</div>

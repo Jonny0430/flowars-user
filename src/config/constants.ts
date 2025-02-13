@@ -80,11 +80,11 @@ export const navigation = [
 				route: '/contact',
 				icon: MdOutlineContactMail
 			},
-			{
-				label: 'sidebar_title_2_pricing',
-				route: '/pricing',
-				icon: AiOutlineDollar
-			},
+			// {
+			// 	label: 'sidebar_title_2_pricing',
+			// 	route: '/pricing',
+			// 	icon: AiOutlineDollar
+			// },
 			{
 				label: 'sidebar_title_2_faq',
 				route: '/faq',
@@ -147,17 +147,32 @@ export const howItWorks = [
 	{ title: 'how_it_works_third_step', image: '/images/delivery.svg' }
 ]
 
+// export const productsFilter = [
+// 	{
+// 		title: 'filter_category_title',
+// 		id: 'category',
+// 		categoryList: [
+// 			{ name: 'filter_category_item_1', id: 'pets' },
+// 			{ name: 'filter_category_item_2', id: 'food' },
+// 			{ name: 'filter_category_item_3', id: 'toys' },
+// 			{ name: 'filter_category_item_4', id: 'accessories' },
+// 			{ name: 'filter_category_item_5', id: 'healthcare' },
+// 			{ name: 'filter_category_item_6', id: 'adoption' },
+// 			{ name: 'filter_category_item_7', id: 'technology' },
+// 			{ name: 'filter_category_item_8', id: 'other' }
+// 		]
+// 	},
 export const productsFilter = [
 	{
 		title: 'filter_category_title',
 		id: 'category',
 		categoryList: [
-			{ name: 'filter_category_item_1', id: 'pets' },
-			{ name: 'filter_category_item_2', id: 'food' },
-			{ name: 'filter_category_item_3', id: 'toys' },
+			{ name: 'filter_category_item_1', id: 'flowers' },
+			{ name: 'filter_category_item_2', id: 'vases' },
+			{ name: 'filter_category_item_3', id: 'fertilizers' },
 			{ name: 'filter_category_item_4', id: 'accessories' },
-			{ name: 'filter_category_item_5', id: 'healthcare' },
-			{ name: 'filter_category_item_6', id: 'adoption' },
+			{ name: 'filter_category_item_5', id: 'decor' },
+			{ name: 'filter_category_item_6', id: 'art' },
 			{ name: 'filter_category_item_7', id: 'technology' },
 			{ name: 'filter_category_item_8', id: 'other' }
 		]
@@ -505,7 +520,7 @@ export const productServer = [
 	}
 ]
 
-export const productGender = ['Male', 'Female', 'Unknown']
+export const productGender = ['single', 'double', 'mixed']
 
 export const productLocation = [
 	'Seoul',
@@ -534,91 +549,162 @@ export const productLocation = [
 	'Jeju'
 ]
 
-export const productSpecies = ['Dog', 'Cat', 'Bird', 'Fish', 'Rabbit', 'Hamster', 'Reptile', 'Horse', 'Exotic']
+export const productSpecies = ['rose', 'tulip', 'lily', 'daisy', 'sunflower', 'orchid', 'lavender', 'cherryblossom', 'wildflower', 'exoticflower']
 
 export const productAvailability = [
-	'Available',
-	'Adopted',
-	'Pending Adoption',
-	'Not Available',
-	'Reservation' // 예약중 in English
+	'blooming',
+	'wilted',
+	'pendingbloom',
+	'notavailable',
+	'reservation' // 예약중 in English
 ]
 
-export const productCategory = ['pets', 'food', 'toys', 'accessories', 'healthcare', 'other', 'adoption', 'technology']
+export const productCategory = ['flowers', 'seeds', 'vases', 'soil', 'fertilizers', 'tools','other','accessories', 'arrangements','decor','books', 'gifts','events','health','technology','workshops','art']
+
+// export const productAge = [
+// 	'1 week',
+// 	'2 weeks',
+// 	'3 weeks',
+// 	'1 month',
+// 	'2 months',
+// 	'3 months',
+// 	'6 months',
+// 	'9 months',
+// 	'1 year',
+// 	'1.5 years',
+// 	'2 years',
+// 	'3 years',
+// 	'4 years',
+// 	'5 years',
+// 	'10 years',
+// 	'15 years',
+// 	'20 years',
+// 	'25 years',
+// 	'30 years'
+// ]
 
 export const productAge = [
-	'1 week',
-	'2 weeks',
-	'3 weeks',
-	'1 month',
-	'2 months',
-	'3 months',
-	'6 months',
-	'9 months',
-	'1 year',
-	'1.5 years',
-	'2 years',
-	'3 years',
-	'4 years',
-	'5 years',
-	'10 years',
-	'15 years',
-	'20 years',
-	'25 years',
-	'30 years'
+	'1 week', // 1 hafta
+	'2 weeks', // 2 hafta
+	'3 weeks', // 3 hafta
+	'1 month', // 1 oy
+	'2 months', // 2 oy
+	'3 months', // 3 oy
+	'6 months', // 6 oy
+	'9 months', // 9 oy
+	'1 year', // 1 yil
+	'1.5 years', // 1.5 yil
+	'2 years', // 2 yil
+	'3 years', // 3 yil
+	'4 years', // 4 yil
+	'5 years', // 5 yil
+	'6 years', // 6 yil
+	'7 years', // 7 yil
+	'8 years', // 8 yil
+	'10 years', // 10 yil
+	'15 years' // 15 yil (faqat ba'zi uzoq muddatli o'simliklar uchun)
 ]
+
+
+// export const productPrice = [
+// 	11000,
+// 	24000,
+// 	36000,
+// 	49000,
+// 	61000,
+// 	74000,
+// 	86000,
+// 	99000,
+// 	111000,
+// 	124000,
+// 	136000,
+// 	149000,
+// 	161000,
+// 	174000,
+// 	187000,
+// 	199000,
+// 	212000,
+// 	224000,
+// 	237000,
+// 	249000,
+// 	262000,
+// 	274000,
+// 	287000,
+// 	299000,
+// 	312000,
+// 	324000,
+// 	337000,
+// 	350000,
+// 	362000,
+// 	375000,
+// 	387000,
+// 	400000,
+// 	412000,
+// 	425000,
+// 	437000,
+// 	450000,
+// 	462000,
+// 	475000,
+// 	487000,
+// 	500000
+// ]
 
 export const productPrice = [
-	11000,
-	24000,
-	36000,
-	49000,
-	61000,
-	74000,
-	86000,
-	99000,
-	111000,
-	124000,
-	136000,
-	149000,
-	161000,
-	174000,
-	187000,
-	199000,
-	212000,
-	224000,
-	237000,
-	249000,
-	262000,
-	274000,
-	287000,
-	299000,
-	312000,
-	324000,
-	337000,
-	350000,
-	362000,
-	375000,
-	387000,
-	400000,
-	412000,
-	425000,
-	437000,
-	450000,
-	462000,
-	475000,
-	487000,
-	500000
+	5000,    // Arzon gullar
+	7000,    // Arzon gullar
+	9000,    // Arzon gullar
+	12000,   // O'rtacha narxdagi gullar
+	15000,   // O'rtacha narxdagi gullar
+	18000,   // O'rtacha narxdagi gullar
+	22000,   // Yaxshi sifatli gullar
+	25000,   // Yaxshi sifatli gullar
+	30000,   // Yaxshi sifatli gullar
+	35000,   // Noyob gullar
+	40000,   // Noyob gullar
+	45000,   // Maxsus gullar
+	50000,   // Maxsus gullar
+	55000,   // Maxsus gullar
+	60000,   // Ekzotik gullar
+	65000,   // Ekzotik gullar
+	70000,   // Ekzotik gullar
+	75000,   // Ekzotik gullar
+	80000,   // Maxsus ekotiz gullar
+	85000,   // Maxsus ekotiz gullar
+	90000,   // Yirik gullar yoki maxsus turlar
+	95000,   // Yirik gullar yoki maxsus turlar
+	100000,  // Yirik gullar yoki maxsus turlar
+	110000,  // Yirik gullar yoki maxsus turlar
+	120000,  // Yirik gullar yoki maxsus turlar
+	130000,  // Yirik gullar yoki maxsus turlar
+	150000,  // Maxsus eksklyuziv gullar
+	180000,  // Maxsus eksklyuziv gullar
+	200000   // Maxsus eksklyuziv gullar
 ]
 
+
+// export const booksCategories = [
+// 	'pets', // Actual animals for sale or adoption
+// 	'food', // Pet food and treats
+// 	'healthcare', // Medicines, grooming kits, and veterinary services
+// 	'toys', // Pet enrichment and play
+// 	'accessories', // Leashes, collars, beds, etc.
+// 	'training' // Training tools and resources
+// ]
+
 export const booksCategories = [
-	'pets', // Actual animals for sale or adoption
-	'food', // Pet food and treats
-	'healthcare', // Medicines, grooming kits, and veterinary services
-	'toys', // Pet enrichment and play
-	'accessories', // Leashes, collars, beds, etc.
-	'training' // Training tools and resources
+	'care', // Gullarni parvarish qilish bo'yicha kitoblar
+	'design', // Gul kompozitsiyasi va dizayni
+	'types', // Gullar turlari va xilma-xilligi
+	'gardening', // Bog'dorchilik va gulchilik
+	'pests', // Zararkunandalar va ularga qarshi kurash
+	'fertilization', // O'g'itlash va tuproq parvarishi
+	'flower_arranging', // Gul kompozitsiyalari va bezaklar
+	'harvesting', // Gullarni yig'ish va saqlash
+	'history', // Gullar tarixi va madaniyati
+	'exotic_flowers', // Ekzotik gullar
+	'medicine', // Gullar va o'simliklardan foydalanish (dori-darmon)
 ]
+
 
 export const adminSidebar = [
 	{

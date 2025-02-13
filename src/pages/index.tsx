@@ -13,7 +13,7 @@ function Home() {
   const { t } = useTranslation();
   return (
     <Seo
-      metaTitle={`Pet-Store | ${t('main_page_title', { ns: 'seo' })}`}
+      metaTitle={`Florist | ${t('main_page_title', { ns: 'seo' })}`}
       metaDescription={`${t('main_page_description', { ns: 'seo' })}`}
     >
       <HomePageComponent />

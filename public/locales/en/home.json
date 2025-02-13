@@ -1,7 +1,7 @@
 {
-	"hero_title": "Find everything your pet needs for unforgettable memories",
-	"hero_title_1": "With love and care",
-	"hero_start_product_btn": "Explore Pet Store",
+	"hero_title": "Find everything your flower needs for unforgettable blooms!",
+	"hero_title_1": "Everything your flower needs, with love and care!",
+	"hero_start_product_btn": "Visit Our Flower Store",
 	"hero_start_product_1_btn": "Browse Products",
 	"hero_start_product_2_btn": "Check What's New",
 
@@ -14,14 +14,15 @@
 	"hero_become_agent_btn": "Apply as an Agent",
 
 	"category_title": "Popular Categories",
-	"category_description": "Discover the most loved products for your pets!",
-	"category_1": "Cat Supplies",
-	"category_2": "Dog Supplies",
-	"category_3": "Bird Supplies",
-	"category_4": "Fish Supplies",
-	"category_5": "Reptile Supplies",
-	"category_6": "Pet Food",
-	"category_7": "Pet Care Products",
+	"category_description": "Discover the most loved products for your flowers!",
+	"category_1": "Flower Pots",
+	"category_2": "Plant Care Products",
+	"category_3": "Flower Seeds",
+	"category_4": "Soil and Fertilizers",
+	"category_5": "Plant Tools",
+	"category_6": "Flower Food",
+	"category_7": "Flower Care Products",
+
 
 	"design_category": "Happy Paws",
 	"popular_products_title": "Browse Recommended Products",
@@ -42,10 +43,11 @@
 	"testimonials_description": "Honest feedback from our satisfied customers",
 
 	"articles": "All Articles",
-	"articles_description": "Find useful information and tips from our expert articles!",
+	"articles_description": "Find helpful tips and expert advice for your flowers and plants!",
 	"newsletter_title": "Subscribe to Our Newsletter &",
-	"newsletter_description": "Stay updated with the latest trends and insights in the pet world. No spam—just valuable information for pet lovers.",
+	"newsletter_description": "Stay informed with the latest trends and tips in the world of flowers. No spam—just useful information for flower enthusiasts.",
 	"newsletter_placeholder": "Enter your email...",
 	"newsletter_submit": "Subscribe",
-	"sponsor_title": "Trusted by Leading Brands Worldwide"
+	"sponsor_title": "Trusted by Leading Flower Brands Worldwide"
+
 }

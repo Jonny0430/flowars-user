@@ -12,11 +12,11 @@ const PricingPage = ({ stripeProducts }: PricingPageType) => {
     return (
         <Seo
             metaTitle={
-                `Pet-Store | ${t('pricing_page_title', { ns: 'seo' })}` ||
-                'Pet-Store | Pricing Package'
+                `Florist | ${t('pricing_page_title', { ns: 'seo' })}` ||
+                'Florist | Pricing Package'
             }
             metaDescription={
-                `Pet-Store | ${t('pricing_page_description', { ns: 'seo' })}` ||
+                `Florist | ${t('pricing_page_description', { ns: 'seo' })}` ||
                 'Choose the best plan on Pet Store to access premium pet care products, exclusive deals, and personalized shopping features.'
             }
         >

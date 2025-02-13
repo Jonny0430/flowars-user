@@ -1,13 +1,13 @@
 {
-	"title": "Книги о питомцах",
-	"description": "Найдите всё необходимое для ваших любимых питомцев в книгах!",
+	"title": "Книги о цветах",
+	"description": "Найдите всё необходимое для ваших любимых цветов в книгах!",
 	"filter_all_category": "Все категории",
-	"filter_pets": "Питомцы",
-	"filter_food": "Еда",
-	"filter_healthcare": "Здоровье",
-	"filter_toys": "Игрушки",
+	"filter_flowers": "Цветы",
+	"filter_soil": "Торф и почва",
+	"filter_healthcare": "Здоровье растений",
+	"filter_tools": "Инструменты",
 	"filter_accessories": "Аксессуары",
-	"filter_training": "Обучение",
+	"filter_design": "Дизайн",
 	"book_added": "Книга успешно добавлена",
 	"buy": "Купить"
 }
