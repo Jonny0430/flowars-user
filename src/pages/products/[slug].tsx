@@ -12,7 +12,7 @@ import { AppService } from "src/service/app.service";
 const DetailedProductPage = () => {
 	const router = useRouter();
 	return (
-		<Seo metaTitle={`PetStore product | ${router.query.slug}`}>
+		<Seo metaTitle={`Florist product | ${router.query.slug}`}>
 			<DetailedProductComponent />
 		</Seo>
 	);

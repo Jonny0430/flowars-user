@@ -69,19 +69,19 @@ const AgentEditProductCard: FC<AgentProductsCardProps> = ({ item }): JSX.Element
                 <Divider />
                 <HStack>
                     <Button color={'black'}
-                        bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }} rightIcon={<VscOpenPreview />}>Preview</Button>
+                        bg={'#4cea54'} _hover={{ bg: '#06e911e0' }} rightIcon={<VscOpenPreview />}>Preview</Button>
                     <Button
                         color={'black'}
-                        bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }}
+                        bg={'#4cea54'} _hover={{ bg: '#06e911e0' }}
                         rightIcon={<FiEdit2 />}
                         onClick={() => router.push(`/agent/edit-products/${item.slug}`)}
                     >
                         Edit
                     </Button>
                     <Button rightIcon={<BsTrash />} onClick={onOpen} color={'black'}
-                        bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }}>Delete</Button>
+                        bg={'#4cea54'} _hover={{ bg: '#06e911e0' }}>Delete</Button>
                     <Button rightIcon={<HiOutlineStatusOnline />} color={'black'}
-                        bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }}>Status</Button>
+                        bg={'#4cea54'} _hover={{ bg: '#06e911e0' }}>Status</Button>
                 </HStack>
             </Stack>
             <Modal isOpen={isOpen} onClose={onClose} isCentered>

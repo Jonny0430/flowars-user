@@ -24,7 +24,7 @@ function Newsletter() {
                             placeholder={t('newsletter_placeholder', { ns: 'home' }) || ''}
                             _placeholder={{ color: 'gray.500' }}
                         />
-                        <Button pos={'absolute'} bg={'#FFC196'}  _hover={{ bg: '#FF9F6D' }} color={'black'} right={2} top={2}  zIndex={999}>
+                        <Button pos={'absolute'} bg={'#4cea54'}  _hover={{ bg: '#06e911e0' }} color={'black'} right={2} top={2}  zIndex={999}>
                             {t('newsletter_submit', { ns: 'home' })}
                         </Button>
                     </Box>

@@ -37,7 +37,7 @@ const AgentProductsCard: FC<AgentProductsCardProps> = ({ item }): JSX.Element =>
                         w={'50%'}
                         h={14}
                         color={'black'}
-                        bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }}
+                        bg={'#4cea54;'} _hover={{ bg: '#06e911e0' }}
                     >
                         Preview
                     </Button>

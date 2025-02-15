@@ -1,29 +1,29 @@
 {
-	"main_page_title": "Pet products",
-	"main_page_description": "Explore a variety of pet care products, services, and resources. From pet supplies to grooming tools, we provide everything you need for your beloved pets. Build your personalized shopping profile, manage your wishlist, and discover the best care solutions for your furry friends at Pet Store.",
+	"main_page_title": "Flower products",
+	"main_page_description": "Explore a variety of flower care products, services, and resources. From flower supplies to gardening tools, we provide everything you need for your beloved flowers. Build your personalized shopping profile, manage your wishlist, and discover the best care solutions for your floral friends at FlowerShop.",
 	"product_page_title": "All products",
-	"all_products_description": "Discover a wide range of products on the Pet Store platform to meet all your pet care needs and enjoy a seamless shopping experience.",
+	"all_products_description": "Discover a wide range of products on the FlowerShop platform to meet all your flower care needs and enjoy a seamless shopping experience.",
 
 	"books_page_title": "Books",
-	"books_page_description": "Pet Store offers a curated selection of books to help you better care for and understand your pets.",
+	"books_page_description": "FlowerShop offers a curated selection of books to help you better care for and understand your flowers.",
 
 	"article_page_title": "Articles",
-	"article_page_description": "Useful articles of PetStore",
+	"article_page_description": "Useful articles of FlowerShop",
 
 	"about_page_title": "About Us",
-"about_page_description": "Learn more about the FlowerShop platform, your one-stop destination for premium flower care products, services, and expert advice.",
+	"about_page_description": "Learn more about the FlowerShop platform, your one-stop destination for premium flower care products, services, and expert advice.",
 
 	"contact_page_title": "Contact us",
-	"contact_page_description": "Contact with PetStore and you can ask any questions",
+	"contact_page_description": "Contact with FlowerShop and you can ask any questions",
 
 	"pricing_page_title": "Pricing Package",
-"pricing_page_description": "Choose the best plan on Pet Store to access premium pet care products, exclusive deals, and personalized shopping features.",
+	"pricing_page_description": "Choose the best plan on FlowerShop to access premium flower care products, exclusive deals, and personalized shopping features.",
 
 	"faq_page_title": "FAQ",
-	"faq_page_description": "More users in PetStore platform frequently asked question",
+	"faq_page_description": "More users in FlowerShop platform frequently asked question",
 
 	"auth_page_title": "Auth",
-	"auth_page_description": "Log in or create an account to access Pet Store’s wide range of pet care products, services, and exclusive offers.",
+	"auth_page_description": "Log in or create an account to access FlowerShop’s wide range of flower care products, services, and exclusive offers.",
 
 	"agent": "Become an agent"
 }

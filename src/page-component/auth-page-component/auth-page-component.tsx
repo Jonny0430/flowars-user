@@ -40,19 +40,19 @@ const AuthPageComponent = () => {
             <Box pos={'relative'}>
                 <Container
                     as={SimpleGrid}
-                    maxW={'7xl'}
+                    maxW={'8xl'}
                     columns={{ base: 1, md: 2 }}
                     spacing={{ base: 10, lg: 32 }}
                     py={{ base: 10, sm: 20, lg: 32 }}
                 >
                     <Stack spacing={{ base: 10, md: 20 }}>
-                        {/* <Heading lineHeight={1.1} fontSize={{ base: '3xl', sm: '4xl', md: '5xl', lg: '6xl' }}>
-                            {t('auth_page_title_1', { ns: 'global' })}{'  '}
-                            <Text as={'span'} bgGradient='linear(to-r, gray.400, facebook.400)' bgClip={'text'}>
+                        <Heading lineHeight={1.1} fontSize={{ base: '3xl', sm: '4xl', md: '5xl', lg: '6xl' }}>
+                            {/* {t('auth_page_title_1', { ns: 'global' })}{'  '} */}
+                            {/* <Text as={'span'} bgGradient='linear(to-r, gray.400, facebook.400)' bgClip={'text'}>
                                 &
                             </Text>{'  '}
-                            {t('auth_page_title_2', { ns: 'global' })}
-                        </Heading> */}
+                            {t('auth_page_title_2', { ns: 'global' })} */}
+                        </Heading>
                         <Stack direction={'row'} spacing={4} align={'center'}>
                             <AvatarGroup>
                                 {avatars.map((avatar, index) => (
@@ -69,7 +69,7 @@ const AuthPageComponent = () => {
                                             height: 'full',
                                             rounded: 'full',
                                             transform: 'scale(1.125)',
-                                            bgGradient: 'linear(to-bl, red.400, pink.400)',
+                                            bgGradient: 'linear(to-bl, yellow.400, pink.400)',
                                             pos: 'absolute',
                                             zIndex: -1,
                                             top: 0,

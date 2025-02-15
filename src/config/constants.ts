@@ -36,35 +36,33 @@ export const navigation = [
 				icon: FiHome
 			},
 			{
-				label: 'sidebar_title_1_products',
-				route: '/products',
-				icon: CiViewList
-			},
-			{
 				label: 'sidebar_title_1_books',
 				route: '/books',
 				icon: FaBookReader
 			},
 			{
-				label: 'sidebar_title_1_articles',
-				route: '/articles',
-				icon: MdImportContacts
-			},
-			{
-				label: 'sidebar_title_1_team',
-				route: '/team',
-				icon: AiOutlineTeam
+				label: 'sidebar_title_1_products',
+				route: '/products',
+				icon: CiViewList
 			},
 			{
 				label: 'sidebar_title_1_become_agent',
 				route: '/become-agent',
 				icon: BsPersonFillAdd
 			},
+			
 			{
-				label: 'sidebar_title_1_statistics',
-				route: '/statistics',
-				icon: FiTrendingUp
+				label: 'sidebar_title_1_team',
+				route: '/team',
+				icon: AiOutlineTeam
+			},
+			{
+				label: 'sidebar_title_1_articles',
+				route: '/articles',
+				icon: MdImportContacts
 			}
+			
+			
 		]
 	},
 	{
@@ -74,6 +72,11 @@ export const navigation = [
 				label: 'sidebar_title_2_about',
 				route: '/about',
 				icon: FaDraftingCompass
+			},
+			{
+				label: 'sidebar_title_1_statistics',
+				route: '/statistics',
+				icon: FiTrendingUp
 			},
 			{
 				label: 'sidebar_title_2_contact',
@@ -98,37 +101,37 @@ export const categories = [
 	{
 		name: 'category_1',
 		id: 1,
-		image: '/images/cat.svg'
+		image: '/flower/h1.avif'
 	},
 	{
 		name: 'category_2',
 		id: 2,
-		image: '/images/dogs.svg'
+		image: '/flower/ogit.avif'
 	},
 	{
 		name: 'category_3',
 		id: 3,
-		image: '/images/bird.svg'
+		image: '/flower/seds.webp'
 	},
 	{
 		name: 'category_4',
 		id: 4,
-		image: '/images/fish.svg'
+		image: '/flower/soli.jpeg'
 	},
 	{
 		name: 'category_5',
 		id: 5,
-		image: '/images/reptile.svg'
+		image: '/flower/plant.jpg'
 	},
 	{
 		name: 'category_6',
 		id: 6,
-		image: '/images/petfood.svg'
+		image: '/flower/food.avif'
 	},
 	{
 		name: 'category_7',
 		id: 7,
-		image: '/images/animalcare.svg'
+		image: '/flower/care.jpg'
 	}
 ]
 export const trustedCompeny = [SiDatadog, SiApachetomcat, GiTropicalFish, LuBird, SiFoodpanda, TbTruckDelivery]

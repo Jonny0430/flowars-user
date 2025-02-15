@@ -27,6 +27,7 @@ export enum Gender {
 	Single = 'Single', // Bir gul turi
 	Double = 'Double', // Ikki gul turi (masalan, ikki rangli gullar)
 	Mixed = 'Mixed', // Aralash gullar yoki ranglar
+	Unknown = 'Unknown'
 }
 
 export enum Availability {

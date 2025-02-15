@@ -24,7 +24,7 @@ function Agent() {
                             cursor={'pointer'}
                             border={'1px'}
                             borderRadius={'lg'}
-                            borderColor={useColorModeValue('#FF9F6D', 'gray')}
+                            borderColor={useColorModeValue('#4cea54', 'gray')}
                             boxShadow={useColorModeValue('xl', '')}
                         >
                             <Box pos={'relative'} w={'full'} h={'230px'}>
@@ -48,7 +48,7 @@ function Agent() {
             </Grid>
             <Text textAlign={'center'}>{t('agent_link_title', { ns: 'home' })}{'  '}
                 <Box as={'span'} color={'teal'} _hover={{ textDecoration: 'underline' }} >
-                    <Button color={'blackAlpha.900'} bg={'#FFC196'}  _hover={{ bg: '#FF9F6D' }} variant={'solid'}>
+                    <Button color={'blackAlpha.900'} bg={'#4cea54'}  _hover={{ bg: '#06e911e0' }} variant={'solid'}>
                         <Link href={"/become-agent"}>{t('agent_link_router', { ns: 'home' })}</Link>
                     </Button>
                 </Box>

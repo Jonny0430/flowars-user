@@ -16,7 +16,7 @@ const companies = [
     {
         title: 'ADMIN',
         alt: 'company image',
-        role: 'Software Engineer & PetStore Founder',
+        role: 'Software Engineer',
         skills: [
             "HTML",
             "CSS",
@@ -26,6 +26,9 @@ const companies = [
             "Next.js",
             "Redux",
             "Vite",
+            "React Native",
+            "Php",
+            "Python",
             "MUI (Material-UI)",
             "Tailwind CSS",
             "Node.js",
@@ -38,7 +41,7 @@ const companies = [
             "GitHub",
             'Stripe'
         ],
-        logo: '/images/image.'
+        logo: '/flower/admin.jpeg'
     },
 ];
 

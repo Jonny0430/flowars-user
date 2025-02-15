@@ -39,8 +39,8 @@ const SideBar: FC<SideBarProps> = ({ toggle }): JSX.Element => {
                             return (
                                 <Link href={`${nav.route}`} key={index}>
                                     <Button
-                                        _hover={{ bg: '#FF9F6D' }}
-                                        bgColor={active ? "#FFC196" : ''} color={active ? 'black' : ''} variant={active ? "solid" : 'ghost'}
+                                        _hover={{ bg: '#06e911e0' }}
+                                        bgColor={active ? "#4cea54" : ''} color={active ? 'black' : ''} variant={active ? "solid" : 'ghost'}
                                         w={'full'} justifyContent={'flex-start'} h={14} mt={2}>
                                         <HStack gap={2}>
                                             <Icon as={nav.icon} />

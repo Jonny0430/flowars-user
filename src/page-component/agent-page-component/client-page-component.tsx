@@ -61,7 +61,7 @@ const AgentClientPageComponent = () => {
                         placeholder={t('search_input_placeholder', { ns: 'products' }) || ''}
                         _placeholder={{ color: 'gray.500' }}
                     />
-                    <Button pos={'absolute'} bg={'#FFC196'}  _hover={{ bg: '#FF9F6D' }} right={2} top={2}  zIndex={999}>
+                    <Button pos={'absolute'} bg={'#4cea54'}  _hover={{ bg: '#06e911e0' }} right={2} top={2}  zIndex={999}>
                         {t('search_input_btn', { ns: 'products' })}
                     </Button>
                 </Box>

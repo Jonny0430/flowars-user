@@ -93,7 +93,7 @@ const AccountRecovery = ({ onNavigateStateComponent }: AccountRecoveryProps) => 
                         w={'full'}
                         mt={4}
                         color={'black'}
-                        bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }}
+                        bg={'#4cea54'} _hover={{ bg: '#06e911e0' }}
                         h={14}
                         isLoading={isLoading}
                         loadingText={'Loading....'}
@@ -152,7 +152,7 @@ const AccountRecovery = ({ onNavigateStateComponent }: AccountRecoveryProps) => 
                         )}
                         <Button
                             w={'full'}
-                            bg={'#FFC196'}  _hover={{ bg: '#FF9F6D' }}
+                            bg={'#4cea54'}  _hover={{ bg: '#06e911e0' }}
                             color={"black"}
                             h={14}
                             mt={4}
@@ -218,7 +218,7 @@ const AccountRecovery = ({ onNavigateStateComponent }: AccountRecoveryProps) => 
                     <Button
                         w={'full'}
                         color={'black'}
-                        bg={'#FFC196'}  _hover={{ bg: '#FF9F6D' }}
+                        bg={'#4cea54'}  _hover={{ bg: '#06e911e0' }}
                         h={14}
                         mt={4}
                         isLoading={isLoading}

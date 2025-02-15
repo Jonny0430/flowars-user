@@ -12,7 +12,7 @@ const BecomeAgent: NextPage = () => {
     return (
         <Seo
             metaTitle={
-                `Florist | ${t('agent', { ns: 'seo' })}` || 'PetStore | Become an agent'
+                `Florist | ${t('agent', { ns: 'seo' })}` || 'Florist| Become an agent'
             }
         >
             <BecomeAgentPageComponent />

@@ -1,14 +1,14 @@
 export const siteConfig = {
 	metaData: {
-		title: 'PetStore | The Best Online Pet Shop for Dogs & Cats',
+		title: 'Florist | The Best Online Florist Shop',
 		description:
-			'PetStore is your one-stop shop for all your pet needs! From premium pet food and toys to grooming supplies, we have everything for your beloved dogs and cats.',
+			'FlowerStore is your one-stop shop for all your flower needs! From premium flower food and toys to gardening supplies, we have everything for your beloved roses and tulips.',
 		keyword:
-			'Pet Store, Pet Shop, Buy Dog Food, Buy Cat Food, Pet Toys, Grooming Supplies, Online Pet Store, Dog Products, Cat Accessories',
-		ogImage: '/images/og-petstore.jpg' // Ensure the image is 1200x630 for better display on social platforms
+			'Flower Store, Flower Shop, Buy Rose Food, Buy Tulip Food, Flower Toys, Online Flower Store, Rose Products',
+		ogImage: '/images/www.webp' // Ensure the image is 1200x630 for better display on social platforms
 	},
-	baseURL: 'https://www.pet-shop.uz/',
-	logo: '/images/dogs.svg', // Ensure this is optimized and responsive
-	logoText: 'PetStore',
-	favicon: '/images/dogs.svg' // Ensure this is a 16x16 or 32x32 icon for better browser support
+	baseURL: 'https://www.florist.uz/',
+	logo: '/images/www.webp', // Ensure this is optimized and responsive
+	logoText: 'Florist',
+	favicon: '/images/www.webp' // Ensure this is a 16x16 or 32x32 icon for better browser support
 }

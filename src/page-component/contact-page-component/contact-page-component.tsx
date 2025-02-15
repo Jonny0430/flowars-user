@@ -34,7 +34,7 @@ const ContactPageComponent = () => {
                             <Textarea placeholder="body" height={'150px'} />
                         </FormControl>
                         <Button w={'full'} h={14} color={'black'}
-                            bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }} onClick={() => router.reload()}>
+                            bg={'#4cea54'} _hover={{ bg: '#06e911e0' }} onClick={() => router.reload()}>
                             {t('contact_btn', { ns: 'global' })}
                         </Button>
                     </Stack>

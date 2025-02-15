@@ -62,9 +62,9 @@ const PopularProductsCard = ({ item }: PopularProductsCardProps) => {
                         <Divider />
                         <Flex justify={'space-between'} align={'center'}>
                             <HStack align={'center'}>
-                                <Button gap={2} bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }} color={useColorModeValue('', 'blackAlpha.800')} onClick={() => router.push(`/products/${item.slug}`)}>{t('detail', {ns: 'products'})}<BiMessageRoundedDetail /></Button>
+                                <Button gap={2} bg={'#4cea54'} _hover={{ bg: '#06e911e0' }} color={useColorModeValue('', 'blackAlpha.800')} onClick={() => router.push(`/products/${item.slug}`)}>{t('detail', {ns: 'products'})}<BiMessageRoundedDetail /></Button>
                             </HStack>
-                            <Button bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }} color={useColorModeValue('', 'blackAlpha.800')} variant={'solid'}>{item?.price?.toLocaleString('ko-KR', { style: 'currency', currency: 'KRW' })}</Button>
+                            <Button bg={'#4cea54'} _hover={{ bg: '#06e911e0' }} color={useColorModeValue('', 'blackAlpha.800')} variant={'solid'}>{item?.price?.toLocaleString('ko-KR', { style: 'currency', currency: 'KRW' })}</Button>
                         </Flex>
                     </Stack>
                 </CardBody>

@@ -13,7 +13,7 @@ const AboutPageComponent = () => {
             <SectionTitle textAlign={'center'} p={5} title={t('about_title', { ns: 'global' })} subtitle={t('about_descrption', { ns: 'global' })} />
 
             <Grid gridTemplateColumns={{ base: '100%', lg: '50% 50%' }} mt={10} gap={5}>
-                <Image src={"/images/about.png"} />
+                <Image src={"/images/k.webp"} />
                 <Card>
                     <CardBody>
                         <Stack justifySelf={'center'} spacing={4} alignSelf={'center'}>
@@ -27,7 +27,7 @@ const AboutPageComponent = () => {
                                 {t('about_text_2', { ns: 'global' })}
                             </Text>
                             <Button color={'black'}
-                                bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }} h={14} w={'100%'} onClick={() => router.push('/')} mt={4}>
+                                bg={'#4cea54'} _hover={{ bg: '#06e911e0' }} h={14} w={'100%'} onClick={() => router.push('/')} mt={4}>
                                 {t('about_btn', { ns: 'global' })}
                             </Button>
                         </Stack>

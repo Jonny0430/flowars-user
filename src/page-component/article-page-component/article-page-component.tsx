@@ -82,7 +82,7 @@ const ArticlePageComponent: FC<ArticlePageComponentProps> = ({ articles }): JSX.
                                 <Heading fontSize={'2xl'} fontFamily={'body'}>
                                     {item?.title}
                                 </Heading>
-                                <Button w={'fit-content'} variant={'solid'} bgColor='#FFC196'>
+                                <Button w={'fit-content'} variant={'solid'} bgColor='#4cea54'>
                                     <Text color={'black'}>{item.category}</Text>
                                 </Button>
                             </Stack>

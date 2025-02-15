@@ -17,6 +17,8 @@ import { loadImage } from "src/helpers/image.helper"
 import { ProductTypes } from "src/interface/product.interface"
 import { ReviewType } from "src/interface/review.interface"
 import { ProductService } from "src/service/product.service"
+import { FaLocationCrosshairs } from "react-icons/fa6";
+import { LuFlower2 } from "react-icons/lu";
 
 
 
@@ -132,7 +134,7 @@ const DetailedProductComponent = () => {
                                             w={'full'}
                                             h={14}
                                             color={'black'}
-                                            bgColor={'#FFC196'} _hover={{ bg: '#FF9F6D' }}
+                                            bgColor={'#4cea54'} _hover={{ bg: '#06e911e0' }}
                                             leftIcon={<BsBasket2 />}
                                             onClick={navigation}
                                         >
@@ -180,7 +182,7 @@ const DetailedProductComponent = () => {
                                                 fontSize={'17px'}
                                             >
                                                 <Flex align={'center'} gap={3}>
-                                                    <FaLocationArrow />
+                                                <FaLocationCrosshairs />
                                                     <Text fontWeight={'bold'}>
                                                         {product?.location}
                                                     </Text>
@@ -195,7 +197,7 @@ const DetailedProductComponent = () => {
                                                 fontSize={'17px'}
                                             >
                                                 <Flex align={'center'} gap={3}>
-                                                    <PiGenderIntersexBold />
+                                                <LuFlower2 />
                                                     <Text fontWeight={'bold'}>
                                                         {product?.gender}
                                                     </Text>

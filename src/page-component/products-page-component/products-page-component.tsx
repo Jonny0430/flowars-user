@@ -76,7 +76,7 @@ const productsPageComponent = () => {
                     placeholder={t('search_input_placeholder', { ns: "products" }) || ''}
                     _placeholder={{ color: 'gray.500' }}
                 />
-                <Button pos={'absolute'} right={2} top={2} bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }} color={useColorModeValue('', 'black')} zIndex={999}>
+                <Button pos={'absolute'} right={2} top={2} bg={'#4cea54'} _hover={{ bg: '#06e911e0' }} color={useColorModeValue('', 'black')} zIndex={999}>
                     {t('search_input_btn', { ns: "products" })}
                 </Button>
                 <Flex mt={5} gap={5} direction={{ base: 'column', md: 'row' }}>

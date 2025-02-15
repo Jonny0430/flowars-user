@@ -10,6 +10,7 @@ import ReactStars from "react-stars"
 import { loadImage } from "src/helpers/image.helper"
 import { AllProductsCardProps } from "./all-products-card.props"
 import { useTranslation } from "react-i18next"
+import { LuFlower2 } from "react-icons/lu";
 
 const AllProductsCard = ({ product, isMyProduct }: AllProductsCardProps) => {
     const router = useRouter()
@@ -71,7 +72,7 @@ const AllProductsCard = ({ product, isMyProduct }: AllProductsCardProps) => {
                             <Flex gap={3} fontSize={'14px'} direction={{ base: 'column', sm: 'row' }}>
                                 <Avatar src={product?.author?.fullName} name={product?.author?.fullName} />
                                 <Flex align={'center'} gap={1}>
-                                    <Icon as={PiGenderIntersexBold} />
+                                     <LuFlower2 style={{fontWeight: 'bold'}} /> 
                                     <Text>{product.gender}</Text>
                                 </Flex>
                                 <Flex align={'center'} gap={1}>
@@ -93,7 +94,7 @@ const AllProductsCard = ({ product, isMyProduct }: AllProductsCardProps) => {
                                     <Button
                                         rightIcon={<BsMinecartLoaded />}
                                         color={'black'}
-                                        bgColor={'#FFC196'} _hover={{ bg: '#FF9F6D' }}
+                                        bgColor={'#4cea54'} _hover={{ bg: '#06e911e0' }}
                                         variant={'solid'}
                                         onClick={addProductToCardHandler}
                                         isDisabled={products.map(c => c._id).includes(product._id) ? true : false}

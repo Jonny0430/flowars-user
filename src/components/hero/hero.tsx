@@ -42,7 +42,7 @@ function Hero() {
 							lineHeight={1}
 							rounded="full"
 							color="white"
-							bgGradient="linear(to-l, #0ea5e9,#2563eb)"
+							bgGradient="linear(to-l, #1c0ee9,#d125eb)"
 						>
 							{t('hero_start_product_2_btn', { ns: 'home' })}
 						</Box>
@@ -69,8 +69,8 @@ function Hero() {
 							mb={{ base: 2, sm: 0 }}
 							zIndex={5}
 							lineHeight={1}
-							bgGradient="linear(to-l, #0ea5e9,#2563eb)"
-							_hover={{ bgGradient: 'linear(to-l, #0ea5e9,#2563eb)', opacity: 0.9 }}
+							bgGradient="linear(to-l, #1c0ee9,#d125eb)"
+							_hover={{ bgGradient: 'linear(to-l, #1c0ee9,#d125eb)', opacity: 0.9 }}
 						>
 							<chakra.span onClick={() => router.push('/articles')}>{t('hero_start_product_btn', { ns: 'home' })}</chakra.span>
 							<Icon as={MdBolt} h={4} w={4} ml={1} />
@@ -96,11 +96,11 @@ function Hero() {
 				<Box ml={{ base: 0, md: 5 }} pos="relative">
 
 					<Image
-						w={{ base: '100%', lg: "350px" }}
-						h={{ base: '100%', lg: "350px" }}
-						minW={{ base: 'auto', md: '30rem' }}
+						w={{ base: '100%', lg: "250px" }}
+						h={{ base: '100%', lg: "400px" }}
+						minW={{ base: 'auto', md: '20rem' }}
 						objectFit="cover"
-						src={`/images/pets.jpg`}
+						src={`/flower/ju.jpg`}
 						rounded="md"
 						fallback={<Skeleton />}
 					/>

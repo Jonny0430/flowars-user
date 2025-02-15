@@ -7,7 +7,7 @@ const AuthPage = () => {
 	return (
 		<Seo
 			metaTitle={
-				`Florist | ${t('auth_page_title', { ns: 'seo' })}` || 'PetStore | Auth'
+				`Florist | ${t('auth_page_title', { ns: 'seo' })}` || 'Florist | Auth'
 			}
 			metaDescription={
 				`Florist | ${t('auth_page_description', { ns: 'seo' })}` ||

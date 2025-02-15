@@ -82,7 +82,7 @@ const AdminSidebar: FC<SideBarProps> = ({ toggle }): JSX.Element => {
                     return (
                         <Link href={`/admin/${item.route}`} key={idx}>
                             <Button
-                                bgColor={active ? "#FFC196" : ''} color={active ? 'black' : ''}
+                                bgColor={active ? "#4cea54" : ''} color={active ? 'black' : ''}
                                 variant={active ? 'solid' : 'ghost'}
                                 w={'full'}
                                 justifyContent={'flex-start'}

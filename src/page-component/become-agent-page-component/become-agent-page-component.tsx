@@ -42,7 +42,7 @@ const BecomeAgentPageComponent = () => {
                 <CardBody p={0}>
                     <Stack direction={{ base: 'column', lg: 'row' }}>
                         <Box w={{ base: '100%', lg: '50%' }}>
-                            <Image src='/images/agent.png' alt='agent' h={{ base: '35vh', lg: '60vh' }} />
+                            <Image src='/images/tt.png' alt='agent' h={{ base: '35vh', lg: '60vh' }} />
                         </Box>
                         <Stack w={{ base: '100%', lg: '50%' }} justify={'center'} p={8}>
                             <SectionTitle
@@ -50,7 +50,7 @@ const BecomeAgentPageComponent = () => {
                                 title={t('agent_page_title', { ns: 'agent' })}
                                 subtitle={t('agent_page_description', { ns: 'agent' })}
                             />
-                            <Button onClick={onOpen} h={14} bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }} color={'blackAlpha.900'}>
+                            <Button onClick={onOpen} h={14} bg={'#4cea54'} _hover={{ bg:'#06e911e0' }} color={'blackAlpha.900'}>
                                 {t('agent_page_get_started', { ns: 'agent' })}
                             </Button>
                         </Stack>
@@ -126,7 +126,7 @@ const BecomeAgentPageComponent = () => {
                             title={t('become_agent_today', { ns: 'agent' })}
                             subtitle={t('become_agent_today_description', { ns: 'agent' })}
                         />
-                        <Button onClick={onOpen} w={'full'} h={14} bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }} color={'blackAlpha.900'}>
+                        <Button onClick={onOpen} w={'full'} h={14} bg={'#4cea54'} _hover={{ bg: '#06e911e0' }} color={'blackAlpha.900'}>
                             {t('agent_page_get_started', { ns: 'agent' })}
                         </Button>
                     </Stack>
@@ -180,7 +180,7 @@ const BecomeAgentPageComponent = () => {
                             <ModalFooter>
                                 <Button
                                     type='submit'
-                                    bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }} color={'blackAlpha.900'}
+                                    bg={'#4cea54'} _hover={{ bg: '#06e911e0' }} color={'blackAlpha.900'}
                                     h={14}
                                     rightIcon={<GoVerified />}
                                     isLoading={isLoading}

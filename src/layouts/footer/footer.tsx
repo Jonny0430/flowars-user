@@ -22,11 +22,11 @@ const Footer = () => {
                 <Text>{format(new Date(), 'yyyy')} © Monrovia. {t('footer', { ns: 'layout' })}.</Text>
                 <Flex gap={4} mr={{base: '0', lg: '10'}}>
                     <IconButton icon={<FaTelegram />} 
-                       colorScheme="facebook" _hover={{ bg: '#FF9F6D' }} variant={'outline'} aria-label={"telegram"} />
+                       colorScheme="facebook" _hover={{ bg: '#06e911e0' }} variant={'outline'} aria-label={"telegram"} />
                     <IconButton icon={<FaInstagram />}
-                       colorScheme="facebook" _hover={{ bg: '#FF9F6D' }} variant={'outline'} aria-label={"instagram"} />
+                       colorScheme="facebook" _hover={{ bg: '#06e911e0' }} variant={'outline'} aria-label={"instagram"} />
                     <IconButton icon={<FaYoutube />}
-                       colorScheme="facebook" _hover={{ bg: '#FF9F6D' }} variant={'outline'} aria-label={"youtube"} />
+                       colorScheme="facebook" _hover={{ bg: '#06e911e0' }} variant={'outline'} aria-label={"youtube"} />
                 </Flex>
             </Flex>
         </Box>

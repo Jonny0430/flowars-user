@@ -182,7 +182,7 @@ const CheckoutForm = ({ cards }) => {
                                 <Box mt={5}>
                                     <Button
                                         color={'black'}
-                                        bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }}
+                                        bg={'#4cea54'} _hover={{ bg: '#06e911e0' }}
                                         w={'full'}
                                         h={'14'}
                                         isLoading={isLoading}
@@ -270,7 +270,7 @@ const CheckoutForm = ({ cards }) => {
                         h={'14'}
                         mt={5}
                         color={'black'}
-                        bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }}
+                        bg={'#4cea54'} _hover={{ bg: '#06e911e0' }}
                         isDisabled={isLoading || !stripe || !elements}
                         isLoading={isLoading}
                         boxShadow={'xl'}

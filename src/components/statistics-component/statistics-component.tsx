@@ -35,21 +35,21 @@ const statData: StatData[] = [
     {
         id: 1,
         label: 'hero_stats_1',
-        score: 170,
+        score: 230,
         icon: AiOutlineLike,
-        percentage: '10%'
+        percentage: '16%'
     },
     {
         id: 2,
         label: 'hero_stats_2',
-        score: 325,
+        score: 425,
         icon: AiOutlineEye,
         percentage: '30%'
     },
     {
         id: 3,
         label: 'hero_stats_3',
-        score: 40,
+        score: 45,
         icon: HiOutlineMail,
         percentage: '30%'
     }
@@ -95,7 +95,7 @@ const Card = ({ data }: { data: StatData }) => {
                         alignItems="center"
                         rounded="lg"
                         p={2}
-                        bg="#FFC196"
+                        bg="#4cea54"
                         position="relative"
                         w={12}
                         h={12}

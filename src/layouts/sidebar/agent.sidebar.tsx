@@ -72,7 +72,7 @@ const AgentSidebar: FC<SideBarProps> = ({ toggle }): JSX.Element => {
                     return (
                         <Link href={`/agent/${item.route}`} key={index}>
                             <Button
-                                bgColor={active ? "#FFC196" : ''}  color={active ? 'black' : ''}
+                                bgColor={active ? "#4cea54" : ''}  color={active ? 'black' : ''}
                                 w={'full'}
                                 h={14}
                                 mt={3}

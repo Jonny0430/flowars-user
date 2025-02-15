@@ -258,7 +258,7 @@ function Header({ onToggle }: HeaderProps) {
                             <Button
                                 display={{ base: 'none', md: 'flex' }}
                                 rightIcon={<BiUserCircle />} onClick={() => router.push('/auth')}
-                                bgColor={'#FFC196'}
+                                bgColor={'#4cea54'}
                                 color={"black"}
                             >
                                 {t("login", { ns: 'layout' })}

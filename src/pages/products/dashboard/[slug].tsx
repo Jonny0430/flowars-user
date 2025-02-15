@@ -20,7 +20,7 @@ const DashboarProduct: NextPage<ProductDashboardPage> = ({ product }) => {
     console.log('Product:', product)
 
     return (
-        <Seo metaTitle={`PetStore product | ${router.query.slug}`}>
+        <Seo metaTitle={`Florist product | ${router.query.slug}`}>
             <DashboardPageComponent />
         </Seo>
     )

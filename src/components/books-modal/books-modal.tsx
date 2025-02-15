@@ -169,7 +169,7 @@ const BooksModal: FC<BookModalProps> = ({ isOpen, onClose, booksValue }): JSX.El
                                 type="submit"
                                 isLoading={isLoading}
                                 color={'black'}
-                                bg={'#FFC196'} _hover={{ bg: '#FF9F6D' }}
+                                bg={'#4cea54'} _hover={{ bg: '#06e911e0' }}
                                 mr={3}
                             >
                                 {booksValue ? 'Edit book' : 'Add books'}
