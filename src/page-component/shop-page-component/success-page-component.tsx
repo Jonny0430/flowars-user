@@ -19,7 +19,7 @@ const SuccessPageComponent = () => {
                     <Button w={'200px'} colorScheme={'facebook'} h={14} onClick={() => router.push(`/dashboard`)}>
                         {t("dashboard", { ns: 'global' })}
                     </Button>
-                    <Image width={380} height={380} src={'/images/success.png'} alt={'success'} />
+                    <Image width={380} height={380} src={'/images/sw.png'} alt={'success'} />
                 </Stack>
             </CardBody>
         </Card>

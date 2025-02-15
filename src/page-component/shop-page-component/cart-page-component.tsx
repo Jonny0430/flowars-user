@@ -105,7 +105,7 @@ const CartPageComponent = () => {
                         <Button
                             h={14}
                             colorScheme='facebook'
-                            onClick={() => router.push('/shop/checkout')}
+                            onClick={() => router.push('/shop/success')}
                         >
                             {t('checkout', {ns: "products"})}
                         </Button>

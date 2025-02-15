@@ -228,11 +228,11 @@ export const booksCategory = [
 		id: 'all-categories'
 	},
 	{
-		label: 'filter_pets',
+		label: 'filter_flowers',
 		id: 'pets'
 	},
 	{
-		label: 'filter_food',
+		label: 'filter_soil',
 		id: 'food'
 	},
 	{
@@ -240,7 +240,7 @@ export const booksCategory = [
 		id: 'healthcare'
 	},
 	{
-		label: 'filter_toys',
+		label: 'filter_tools',
 		id: 'toys'
 	},
 	{
@@ -248,7 +248,7 @@ export const booksCategory = [
 		id: 'accessories'
 	},
 	{
-		label: 'filter_training',
+		label: 'filter_design',
 		id: 'training'
 	}
 ]

@@ -16,7 +16,7 @@ const companies = [
     {
         title: 'ADMIN',
         alt: 'company image',
-        role: 'Software Engineer',
+        role: 'Software Engineer | Captain',
         skills: [
             "HTML",
             "CSS",

@@ -41,7 +41,7 @@ const SocialMedia = () => {
             >
                 {t('or', { ns: 'global' })}
             </Box>
-            <HStack>
+            {/* <HStack>
                 <Button onClick={github} w={'full'}  disabled colorScheme={"yellow"} variant={'outline'} leftIcon={<FaGithub />} >
                     <Center>
                         <Text>Github</Text>
@@ -52,7 +52,7 @@ const SocialMedia = () => {
                         <Text>Google</Text>
                     </Center>
                 </Button>
-            </HStack>
+            </HStack> */}
         </>
     )
 }

@@ -14,7 +14,7 @@ const CheckoutPage: NextPage<CheckoutPageProps> = ({ cards }) => {
   const checkCard = () => books.length || products.length
 
   return (
-    <Seo metaTitle={`Pet-Store product | Checkout `}>
+    <Seo metaTitle={`Florist product | Checkout `}>
       {checkCard() ? <CheckoutPageComponent cards={cards} /> : <EmptyCartComponent />}
     </Seo>
   )

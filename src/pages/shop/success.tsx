@@ -5,7 +5,7 @@ import { SuccessPageComponent } from 'src/page-component'
 
 const SuccessPage = () => {
     return (
-        <Seo metaTitle={`Pet-Store product | Success `}>
+        <Seo metaTitle={`Florist product | Success `}>
             <SuccessPageComponent />
         </Seo>
     )

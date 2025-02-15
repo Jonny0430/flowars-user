@@ -5,7 +5,7 @@ import { CartPageComponent } from "src/page-component"
 
 const CartPage: NextPage = () => {
     return (
-        <Seo metaTitle={`Pet-Store product | Cart`}>
+        <Seo metaTitle={`Florist product | Cart`}>
             <CartPageComponent />
         </Seo>
     )

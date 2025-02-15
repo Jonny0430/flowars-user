@@ -2,12 +2,12 @@
 	"title": "Flowers Books",
 	"description": "Find everything you need for your beloved flower in books!",
 	"filter_all_category": "All Categories",
-	"filter_pets": "Care",
-	"filter_food": "Gardening",
+	"filter_flowers": "Flower",
+	"filter_soil": "Gardening",
 	"filter_healthcare": "Pests",
-	"filter_toys": "Toys",
+	"filter_tools": "Toys",
 	"filter_accessories": "Accessories",
-	"filter_training": "Training",
+	"filter_design": "Training",
 	"book_added": "book added successfully",
 	"buy": "Buy"
 }

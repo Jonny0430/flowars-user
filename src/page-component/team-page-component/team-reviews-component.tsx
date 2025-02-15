@@ -22,15 +22,6 @@ const reviewData = [
     },
     {
         avatarSrc: '',
-        review: `"Innovative, Fun, and Easy to Use!"
-        "I can't say enough good things about FlowerShop! Not only is it packed with useful tools, but it's also fun to use. My plants' health and growth have improved, and I feel more connected to their needs. From watering schedules to plant-friendly events, this app has it all. It's definitely the go-to app for flower lovers everywhere."`,
-        stars: 5,
-        userName: 'Bob',
-        dateTime: '1 month ago'
-
-    },
-    {
-        avatarSrc: '',
         review: `"A Must-Have for Every Flower Lover!"
         "As a first-time plant owner, FlowerShop has been a lifesaver. The resources and tips are spot-on, and the ability to track my plant's milestones has been incredibly helpful. The community of fellow plant lovers is also fantastic. I feel like I’m part of a big, loving family. If you're looking for an app that truly cares about flowers and their owners, this is it!"`,
         stars: 5,

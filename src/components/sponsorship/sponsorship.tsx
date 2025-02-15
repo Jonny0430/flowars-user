@@ -10,12 +10,12 @@ function Sponsorship() {
 
     return (
         <>
-            <SectionTitle title="" subtitle={t('sponsor_title', { ns: 'home' })} textAlign={'center'} mb={5} />
+            {/* <SectionTitle title="" subtitle={t('sponsor_title', { ns: 'home' })} textAlign={'center'} mb={5} /> */}
 
             <Carousel responsive={sponsorshipCarousel} arrows={false} showDots={false} infinite autoPlay={true} autoPlaySpeed={3000}>
                 {trustedCompeny.map((item, index) => (
                     <Center>
-                        <Icon key={index} as={item} fontSize={50} />
+                        {/* <Icon key={index} as={item} fontSize={50} /> */}
                     </Center>
                 ))}
             </Carousel>

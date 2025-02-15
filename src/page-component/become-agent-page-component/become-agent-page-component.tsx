@@ -42,7 +42,7 @@ const BecomeAgentPageComponent = () => {
                 <CardBody p={0}>
                     <Stack direction={{ base: 'column', lg: 'row' }}>
                         <Box w={{ base: '100%', lg: '50%' }}>
-                            <Image src='/images/tt.png' alt='agent' h={{ base: '35vh', lg: '60vh' }} />
+                            <Image src='/images/jamoa.avif' alt='agent' h={{ base: '35vh', lg: '60vh' }} />
                         </Box>
                         <Stack w={{ base: '100%', lg: '50%' }} justify={'center'} p={8}>
                             <SectionTitle
